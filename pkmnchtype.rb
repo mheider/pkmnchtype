@@ -68,6 +68,11 @@ def build_term_table
   table.style = {padding_left: 3, padding_right: 3,  border_x: "=", border_i: "x"}
   
   p table
+  
+end
+
+def print_source
+  print "#-- Quelle: http://www.pokewiki.de/#{$pokemon}\n"
 end
 
 def main
@@ -76,6 +81,8 @@ def main
   analyze_table
   
   build_term_table
+  
+  print_source
 end
 
 if __FILE__ == $0

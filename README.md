@@ -12,5 +12,5 @@ Um das Programm auszuführen benötigt man:
   * terminal-table      - `gem install terminal-table`
   
 # Programm ausführen
-'ruby pkmnchtype.rb NameDesPKMN'
+`ruby pkmnchtype.rb NameDesPKMN`
 
