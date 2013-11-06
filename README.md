@@ -14,3 +14,6 @@ Um das Programm auszuführen benötigt man:
 # Programm ausführen
 `ruby pkmnchtype.rb NameDesPKMN`
 
+## Beispiel
+![Example Mewtu](https://raw.github.com/mheider/pkmnchtype/master/img/beispiel_mewtu.png)
+
