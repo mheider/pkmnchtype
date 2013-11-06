@@ -72,7 +72,7 @@ def build_term_table
 end
 
 def print_source
-  print "#-- Quelle: http://www.pokewiki.de/#{$pokemon}\n"
+  print "#-- Quelle: http://www.pokewiki.de/#{$pokemon}\n\n"
 end
 
 def main
@@ -89,8 +89,8 @@ if __FILE__ == $0
   $pokemon = ARGV[0]
   
   unless $pokemon
-    p "please insert a pokemon-name"
-    p "usage #{$0} 'pokemon-name'"
+    print "please insert a pokemon-name\n"
+    print "usage: ruby #{$0} 'pokemon-name'\n"
     exit
   end
   
