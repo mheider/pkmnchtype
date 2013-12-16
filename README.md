@@ -11,6 +11,9 @@ Um das Programm auszuführen benötigt man:
   * open-uri            - `gem install open-uri`
   * terminal-table      - `gem install terminal-table`
   
+# Vorbereitung
+`bundle install`
+
 # Programm ausführen
 `ruby pkmnchtype.rb NameDesPKMN`
 
