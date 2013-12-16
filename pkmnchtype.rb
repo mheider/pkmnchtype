@@ -65,7 +65,7 @@ def build_term_table
                               :rows => rows,
                               :headings => ['*0', '*0.25', '*0,5', '*1', '*2', '*4']
   
-  table.style = {padding_left: 3, padding_right: 3,  border_x: "=", border_i: "x"}
+  table.style = {padding_left: 3, padding_right: 3,  border_x: "=", border_i: "+"}
   
   p table
   
